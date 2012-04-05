@@ -1,9 +1,7 @@
 *.svn
 
 obj/
-bin/
 build/
-!data/
 
 # mac Finder index files
 .DS_Store
@@ -11,12 +9,17 @@ build/
 # mac apps
 *.app/
 
+*.o
+
 # xcode user project files
 *.xcscheme
 *.xcsettings
 *.xcworkspacedata
 *.xcworkspace
 *.xcuserdatad
+
+*.pbxuser
+*.mode1v3
 
 # codeblocks project files
 *.depend
